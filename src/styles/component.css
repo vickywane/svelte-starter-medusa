@@ -1,0 +1,28 @@
+.custom-btn {
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #383e46;
+    color: #fff;
+    width: auto;
+    padding: 0 2rem;
+    border: 1px solid #383e46;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

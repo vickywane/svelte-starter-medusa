@@ -1,0 +1,111 @@
+.center {
+    text-align: center;
+}
+
+.menu-nav {
+    display: flex;
+    box-shadow: -8px 0 13px 1px rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    background: #fff;
+    height: 100vh;
+    width: 30rem;
+    bottom: 0;
+    padding: 1rem;
+    transition: all 350ms;
+    --py: 35px;
+    position: fixed;
+    min-width: 460px;
+    max-height: 100vh;
+    z-index: 11;
+    overflow: hidden;
+    justify-content: space-between;
+    right: -460px;
+    top: 0;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    -webkit-transform: translateX(110%);
+    -ms-transform: translateX(110%);
+    transform: translateX(110%);
+}
+
+.cart-image {
+    object-fit: contain;
+    height: 200px;
+}
+
+.list {
+    margin: 0;
+    list-style: none;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 12px;
+}
+
+.list::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 12px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+.custom-btn {
+    height: 45px;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #383e46;
+    color: #fff;
+    text-align: center;
+    width: 95%;
+    border: 1px solid #383e46;
+}
+
+.custom-btn:hover {
+    cursor: pointer;
+}
+
+.product-ctn {
+    height: 30vh;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.sub-text {
+    font-size: .9rem;
+    color: #454b54;
+    text-transform: capitalize;
+}
+
+.remove-btn {
+    font-size: .9rem;
+    color: #454b54;
+    text-decoration: underline;
+    transition: all 150ms;
+}
+
+.remove-btn:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+     .menu-nav {
+         width: 100%;
+         min-width: 100%;
+     }
+}
