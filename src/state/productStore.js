@@ -1,6 +1,6 @@
-import {writable} from 'svelte/store'
-import {createClient} from '../utils/client'
-import { retrieveCartId} from "./cartStore";
+import { writable } from 'svelte/store';
+import { createClient } from '../utils/client';
+import { retrieveCartId } from "./cartStore";
 
 const medusaClient = createClient();
 

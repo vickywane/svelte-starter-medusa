@@ -32,13 +32,13 @@ Medusa is an open-source headless commerce engine that enables developers to cre
 
 ## Quick start
 
-1. **Setting up the environment variables**
+1. **Setting up the environment**
 
-   Navigate into your projects directory and create a `creds.js` file in the root directory;
+   Navigate into your projects directory and create a `creds.js` file in the root directory using our template;
 
    ```shell
    cd medusa-svelte-starter/
-   nano creds.js
+   mv creds.template.js creds.js
    ```
    
    If you are using [Stripe](https://stripe.com/), add your Stripe API key to the `creds.js` file using the format below.

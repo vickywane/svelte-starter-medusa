@@ -1,13 +1,13 @@
-import {writable} from 'svelte/store'
-import {createClient} from '../utils/client'
-import {updateCheckoutStore} from "./checkoutStore";
-import {navigate} from 'svelte-routing'
+import { navigate } from 'svelte-routing';
+import { writable } from 'svelte/store';
+import { createClient } from '../utils/client';
+import { updateCheckoutStore } from "./checkoutStore";
 
 const medusaClient = createClient();
 
 export const medusaCartState = writable({
     cart_id: localStorage.getItem("MEDUSA_CART"),
-    cart: []
+    cart: {}
 })
 
 export const medusaShipping = writable([])
@@ -142,6 +142,14 @@ export const completeCartCheckout = async () => {
 
             return state
         })
+        localStorage.clear()
+        medusaCartState.update((state) =>  {
+            state.cart =  { items : [] }
+
+            return state
+        })
+
+        await handleStoreCart()
     } catch (e) {
         console.log(`Error starting payment session: ${e}`)
     }

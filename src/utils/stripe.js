@@ -2,12 +2,12 @@
  * This is a singleton to ensure we only instantiate Stripe once.
  */
 import { loadStripe } from "@stripe/stripe-js";
-import { STRIPE_KEY } from '../../creds'
+import creds from '../../creds.template';
 
 let stripePromise;
 
 const getStripe = () => {
-    stripePromise = loadStripe(STRIPE_KEY);
+    stripePromise = loadStripe(creds?.STRIPE_KEY || "");
     return stripePromise;
 };
 

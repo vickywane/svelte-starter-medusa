@@ -1,9 +1,10 @@
-
 <svelte:head>
-	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link
+    href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
 </svelte:head>
 
 <main>
-	<slot></slot>
+  <slot />
 </main>
-

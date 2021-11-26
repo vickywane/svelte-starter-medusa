@@ -1,6 +1,6 @@
 import Medusa from "@medusajs/medusa-js";
-import { STRIPE_KEY } from '../../creds'
+import creds from '../../creds.template';
 
-const BACKEND_URL = STRIPE_KEY || "http://localhost:9000";
+const BACKEND_URL = creds?.medusa_backend_url || "http://localhost:9000";
 
 export const createClient = () => new Medusa({ baseUrl: BACKEND_URL });
