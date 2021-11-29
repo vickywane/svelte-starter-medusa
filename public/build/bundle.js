@@ -15603,30 +15603,30 @@ var app = (function () {
     			p3 = element("p");
     			t9 = text("Quantity: ");
     			t10 = text(/*quantity*/ ctx[4]);
-    			attr_dev(img, "class", "cart-image svelte-12jic58");
+    			attr_dev(img, "class", "cart-image svelte-u312ys");
     			attr_dev(img, "alt", "Cart item");
     			if (!src_url_equal(img.src, img_src_value = /*orderThumbnail*/ ctx[1])) attr_dev(img, "src", img_src_value);
     			add_location(img, file$c, 10, 4, 190);
     			add_location(p0, file$c, 14, 8, 296);
-    			attr_dev(li0, "class", "svelte-12jic58");
+    			attr_dev(li0, "class", "svelte-u312ys");
     			add_location(li0, file$c, 13, 6, 283);
-    			attr_dev(p1, "class", "sub-text svelte-12jic58");
+    			attr_dev(p1, "class", "sub-text svelte-u312ys");
     			add_location(p1, file$c, 17, 8, 341);
-    			attr_dev(li1, "class", "svelte-12jic58");
+    			attr_dev(li1, "class", "svelte-u312ys");
     			add_location(li1, file$c, 16, 6, 328);
-    			attr_dev(p2, "class", "sub-text svelte-12jic58");
+    			attr_dev(p2, "class", "sub-text svelte-u312ys");
     			add_location(p2, file$c, 20, 8, 409);
-    			attr_dev(li2, "class", "svelte-12jic58");
+    			attr_dev(li2, "class", "svelte-u312ys");
     			add_location(li2, file$c, 19, 6, 396);
-    			attr_dev(p3, "class", "sub-text svelte-12jic58");
+    			attr_dev(p3, "class", "sub-text svelte-u312ys");
     			add_location(p3, file$c, 23, 8, 479);
-    			attr_dev(li3, "class", "svelte-12jic58");
+    			attr_dev(li3, "class", "svelte-u312ys");
     			add_location(li3, file$c, 22, 6, 466);
-    			attr_dev(ul, "class", "ml-5 svelte-12jic58");
+    			attr_dev(ul, "class", "ml-5 svelte-u312ys");
     			add_location(ul, file$c, 12, 4, 259);
     			set_style(div0, "display", "flex");
     			add_location(div0, file$c, 9, 2, 158);
-    			attr_dev(div1, "class", "product-ctn svelte-12jic58");
+    			attr_dev(div1, "class", "product-ctn");
     			add_location(div1, file$c, 8, 0, 130);
     		},
     		l: function claim(nodes) {
@@ -20721,30 +20721,30 @@ var app = (function () {
     			attr_dev(div2, "class", "flex");
     			add_location(div2, file, 84, 14, 2084);
     			add_location(div3, file, 81, 12, 2017);
-    			add_location(br1, file, 102, 12, 2852);
+    			add_location(br1, file, 105, 12, 2946);
     			attr_dev(p2, "class", "mb-4");
-    			add_location(p2, file, 105, 14, 2905);
+    			add_location(p2, file, 108, 14, 2999);
     			attr_dev(div4, "class", "mb-5");
-    			add_location(div4, file, 104, 12, 2872);
+    			add_location(div4, file, 107, 12, 2966);
     			attr_dev(path, "stroke-linecap", "round");
     			attr_dev(path, "stroke-linejoin", "round");
     			attr_dev(path, "stroke-width", "2");
     			attr_dev(path, "d", "M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z");
-    			add_location(path, file, 130, 18, 3688);
+    			add_location(path, file, 133, 18, 3782);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "class", "h-6 w-6 ml-3");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "stroke", "currentColor");
-    			add_location(svg, file, 123, 16, 3447);
+    			add_location(svg, file, 126, 16, 3541);
     			attr_dev(button, "class", "custom-btn");
-    			add_location(button, file, 115, 14, 3190);
+    			add_location(button, file, 118, 14, 3284);
     			attr_dev(div5, "class", "mb-7");
-    			add_location(div5, file, 114, 12, 3157);
+    			add_location(div5, file, 117, 12, 3251);
     			attr_dev(p3, "class", "mb-4 text-lg");
-    			add_location(p3, file, 141, 14, 4005);
-    			add_location(p4, file, 142, 14, 4067);
-    			add_location(div6, file, 140, 12, 3985);
+    			add_location(p3, file, 144, 14, 4099);
+    			add_location(p4, file, 145, 14, 4161);
+    			add_location(div6, file, 143, 12, 4079);
     			add_location(div7, file, 71, 10, 1731);
     			attr_dev(div8, "class", "ml-10 mt-5 flex justify-center");
     			add_location(div8, file, 70, 8, 1676);
@@ -20811,7 +20811,7 @@ var app = (function () {
     			if ((!current || dirty & /*productData*/ 1) && t1_value !== (t1_value = /*productData*/ ctx[0].title + "")) set_data_dev(t1, t1_value);
     			if ((!current || dirty & /*productData*/ 1) && t3_value !== (t3_value = formatPrices(/*productData*/ ctx[0], /*productData*/ ctx[0].variants[0]) + "")) set_data_dev(t3, t3_value);
 
-    			if (dirty & /*selectedVariantSize, productData*/ 5) {
+    			if (dirty & /*selectedVariantSize, productData, selectedVariant*/ 13) {
     				each_value = /*productData*/ ctx[0].variants;
     				validate_each_argument(each_value);
     				let i;
@@ -21174,7 +21174,11 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<ProductPage> was created with unknown prop '${key}'`);
     	});
 
-    	const click_handler = variant => $$invalidate(2, selectedVariantSize = variant.title);
+    	const click_handler = variant => {
+    		$$invalidate(2, selectedVariantSize = variant.title);
+    		$$invalidate(3, selectedVariant = variant);
+    	};
+
     	const func = () => addOrder();
     	const func_1 = () => removeOrder();
 

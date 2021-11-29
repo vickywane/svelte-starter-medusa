@@ -32,10 +32,6 @@
     margin: 1rem 0;
   }
 
-  .product-ctn {
-    /*height: 30vh;*/
-  }
-
   ul {
     list-style: none;
   }

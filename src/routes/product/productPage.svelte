@@ -86,7 +86,10 @@
                 {#each productData.variants as variant}
                   <div
                     class="size-box"
-                    on:click={() => (selectedVariantSize = variant.title)}
+                    on:click={() => {
+                      selectedVariantSize = variant.title;
+                      selectedVariant = variant;
+                    }}
                     style={`color: ${
                       selectedVariantSize === variant.title && "#fff"
                     };
