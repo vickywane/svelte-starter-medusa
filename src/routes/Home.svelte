@@ -64,7 +64,7 @@
 
       <section class="buttons-ctn">
         <a
-          href="https://www.docs.medusa-commerce.com/"
+          href="https://docs.medusajs.com"
           target="_blank"
           rel="noopener"
         >
