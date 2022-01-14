@@ -14,7 +14,7 @@
   let country_code;
 
   medusaCartState.subscribe((state) => {
-    retrieve;
+    retrieveAllProducts;
     cart = state.cart;
     if (state.cart.region) {
       // select a default country
