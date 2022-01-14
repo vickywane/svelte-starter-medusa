@@ -89,7 +89,7 @@
         </a>
 
         <a
-          href="https://github.com/medusajs/svelte-starter-medusa"
+          href="https://github.com/vickywane/svelte-starter-medusa"
           target="_blank"
           rel="noopener"
         >
