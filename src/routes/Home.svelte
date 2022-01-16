@@ -64,7 +64,7 @@
 
       <section class="buttons-ctn">
         <a
-          href="https://www.docs.medusa-commerce.com/"
+          href="https://docs.medusajs.com"
           target="_blank"
           rel="noopener"
         >
@@ -89,7 +89,7 @@
         </a>
 
         <a
-          href="https://github.com/medusajs/svelte-starter-medusa"
+          href="https://github.com/vickywane/svelte-starter-medusa"
           target="_blank"
           rel="noopener"
         >
