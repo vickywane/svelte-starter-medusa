@@ -3,7 +3,7 @@
   import * as Yup from "yup";
   import { addCartInfo, medusaCartState } from "../../state/cartStore";
   import { checkoutStore } from "../../state/checkoutStore";
-
+  import { retrieveAllProducts } from '../../state/productStore'
   let informationLoader = true;
   let cart;
   let currentCheckoutState;
