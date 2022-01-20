@@ -2,7 +2,7 @@
  * This is a singleton to ensure we only instantiate Stripe once.
  */
 import { loadStripe } from "@stripe/stripe-js";
-import creds from '../../creds.template';
+import creds from '../../creds';
 
 let stripePromise;
 
