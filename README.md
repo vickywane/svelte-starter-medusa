@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.medusa-commerce.com">
+  <a href="https://www.medusajs.com/">
     <img alt="Medusa" src="https://user-images.githubusercontent.com/7554214/129161578-19b83dc8-fac5-4520-bd48-53cba676edd2.png" width="100" />
   </a>
    
@@ -73,9 +73,9 @@ Medusa is an open-source headless commerce engine that enables developers to cre
 
 5. **Learn more about Medusa**
 
-    - [Website](https://www.medusa-commerce.com/)
+    - [Website](https://www.medusajs.com/)
     - [GitHub](https://github.com/medusajs)
-    - [Documentation](https://docs.medusa-commerce.com/)
+    - [Documentation](https://docs.medusajs.com/)
 
 6. **Learn more about [Svelte](https://svelte.dev/)**
 
